@@ -35,6 +35,6 @@ az devops configure --defaults organization=
 
 ```bash
 
-./createVariablegroup.sh “new-project-name” “variable-group.json”
+./Create-variable-group.sh “new-project-name” “variable-group.json”
 
 ```
