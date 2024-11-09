@@ -21,3 +21,14 @@ Use the following command to log in to Azure DevOps:
 
 ```bash
 az login --allow-no-subscriptions
+
+```
+### 2. Set the default organization with this command:
+
+```bash
+
+az devops configure --defaults organization=
+
+
+```
+### 3. Once the variable group is saved to variable-group31.json, you can import it into the new project as needed.
