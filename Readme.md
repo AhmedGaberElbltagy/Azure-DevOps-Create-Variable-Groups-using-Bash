@@ -32,3 +32,9 @@ az devops configure --defaults organization=
 
 ```
 ### 3. Once the variable group is saved to variable-group31.json, you can import it into the new project as needed.
+
+```bash
+
+./createVariablegroup.sh “new-project-name” “variable-group.json”
+
+```
